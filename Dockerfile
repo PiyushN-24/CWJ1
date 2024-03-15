@@ -1,10 +1,9 @@
 FROM ubuntu
 
-RUN apt-get update && \
-    apt-get upgrade
+RUN apt-get update 
 
-WORKDIR /home/admin/
+WORKDIR /home/
 
-COPY target/CWJ1.war /home/admin/
+COPY target/CWJ1.war /home/
 
 
