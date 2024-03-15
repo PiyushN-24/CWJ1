@@ -5,6 +5,6 @@ RUN apt-get update && \
 
 WORKDIR /home/admin/
 
-COPY target/CWJ1.war /home/admin/apache-tomcat-9.0.86/webapps
+COPY target/CWJ1.war /home/admin/
 
 
